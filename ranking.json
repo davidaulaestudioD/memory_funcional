@@ -1,0 +1,36 @@
+{
+    "Clasico": [
+        {
+            "nombre": "david",
+            "puntos": 5.2
+        },
+        {
+            "nombre": "pruebaantesdeborrar",
+            "puntos": 5.2
+        },
+        {
+            "nombre": "nav",
+            "puntos": 4.8
+        }
+    ],
+    "Contrarreloj": [
+        {
+            "nombre": "coontradavid",
+            "puntos": 5.4
+        },
+        {
+            "nombre": "contrarelojpruebafinal",
+            "puntos": 5
+        }
+    ],
+    "Vidas": [
+        {
+            "nombre": "vidas",
+            "puntos": 5.199999999999999
+        },
+        {
+            "nombre": "vidasfinal",
+            "puntos": 5.2
+        }
+    ]
+}

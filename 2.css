@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #e0f7e9;
+}
+
+h1 {
+    color: #333;
+}
+
+#marcador {
+    font-size: 24px; 
+    margin: 20px;
+    font-weight: bold;
+}
+
+#temporizador, #vidas, #puntuaciones, #derrota {
+    font-size: 24px; 
+    margin: 20px; 
+    font-weight: bold;
+}
+
+.tablero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    width: 60%;
+    max-width: 600px;
+}
+
+.carta {
+    background-color: #333;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carta.volteada {
+    background-color: #fff;
+}
+
+#resetear, #volverMenu, .boton-juego {
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pedir-nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto; 
+}
+
+#pedir-nombre label {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#nombreJugador {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+#guardarNombre {
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <h1>Memory</h1>
+
+    <div id="menu-modos" class="contenedor">
+        <div class="opciones-juego">
+            <button class="boton-juego" id="modoClasico">Modo Clásico</button>
+            <button class="boton-juego" id="modoContrarreloj">Modo Contrarreloj</button>
+            <button class="boton-juego" id="modoVidas">Modo Vidas</button>
+        </div>
+    </div>
+
+    <div id="contenedor-juego" style="display: none;">
+        <div id="marcador">Puntos: 0</div>
+        <div id="temporizador">Temporizador: 25 segundos</div>
+        <div id="vidas">Vidas: 6</div>
+        <div id="puntuaciones"></div>
+        <div class="tablero" id="tablero"></div>
+        <button id="resetear" style="margin-top: 20px;">Reiniciar Juego</button>
+        <button id="volverMenu" style="margin-top: 20px;">Volver al Menú</button>
+    </div>
+
+    <div id="derrota" style="display: none;">
+        <div>Perdiste. Volviendo al menu</div>
+    </div>
+
+    <div id="pedir-nombre" style="display: none;">
+        <label for="nombreJugador">Nombre:</label>
+        <input type="text" id="nombreJugador" class="input-jugador" placeholder="Ingresa tu nombre">
+        <button id="guardarNombre">Guardar Nombre</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js2.js"></script>
+</body>
+</html>
